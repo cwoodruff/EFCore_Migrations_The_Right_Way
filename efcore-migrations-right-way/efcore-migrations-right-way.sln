@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore-migrations-annotations", "efcore-migrations-annotations\efcore-migrations-annotations.csproj", "{360CC13F-FE29-48FF-AFDD-36C909ED0100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore-migrations-fluentapi", "efcore-migrations-fluentapi\efcore-migrations-fluentapi.csproj", "{CAFD3428-2403-4A79-B504-36DA24D48C39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{360CC13F-FE29-48FF-AFDD-36C909ED0100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360CC13F-FE29-48FF-AFDD-36C909ED0100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360CC13F-FE29-48FF-AFDD-36C909ED0100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360CC13F-FE29-48FF-AFDD-36C909ED0100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFD3428-2403-4A79-B504-36DA24D48C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFD3428-2403-4A79-B504-36DA24D48C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFD3428-2403-4A79-B504-36DA24D48C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFD3428-2403-4A79-B504-36DA24D48C39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
