@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace efcore_migrations_fluentapi.Data;
+namespace efcore_migrations_annotations.Data;
 
 public class ChinookContext : DbContext
 {
@@ -30,7 +30,7 @@ public class ChinookContext : DbContext
         base.OnConfiguring(optionsBuilder);
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer(@"Server=.;Database=chinook-fluentapi;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=.;Database=chinook-annotations;Trusted_Connection=True;");
         }
     }
 
