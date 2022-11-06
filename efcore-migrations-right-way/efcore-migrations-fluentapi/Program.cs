@@ -1,24 +1,30 @@
-﻿using efcore_migrations_fluentapi.Data;
+using efcore_migrations_fluentapi.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
 
-namespace efcore_migrations_fluentapi;
+var builder = WebApplication.CreateBuilder(args);
 
-class Program
+// Add services to the container.
+var connection = builder.Configuration.GetConnectionString("ChinookDb");
+builder.Services.AddDbContext<ChinookContext>(options => options.UseSqlServer(connection));
+builder.Services.AddRazorPages();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
 {
-    static void Main(string[] args)
-    {
-        
-    }
+    app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
 
-public class ChinookContextFactory : IDesignTimeDbContextFactory<ChinookContext>
-{
-    public ChinookContext CreateDbContext(string[] args)
-    {
-        var optionsBuilder = new DbContextOptionsBuilder<ChinookContext>();
-        optionsBuilder.UseSqlServer("Server=.;Database=chinook-annotations;Trusted_Connection=True;TrustServerCertificate=True;");
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-        return new ChinookContext(optionsBuilder.Options);
-    }
-}
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.MapRazorPages();
+
+app.Run();
