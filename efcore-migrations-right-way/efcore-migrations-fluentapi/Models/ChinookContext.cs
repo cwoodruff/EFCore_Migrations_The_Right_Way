@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace efcore_migrations_fluentapi.Data;
+namespace efcore_migrations_fluentapi.Models;
 
 public class ChinookContext : DbContext
 {

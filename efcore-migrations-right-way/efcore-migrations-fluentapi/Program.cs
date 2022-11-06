@@ -1,4 +1,4 @@
-using efcore_migrations_fluentapi.Data;
+using efcore_migrations_fluentapi.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
