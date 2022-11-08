@@ -12,6 +12,9 @@ public class Invoice
     public string? BillingPostalCode { get; set; }
     public decimal Total { get; set; }
     
+    public DateTime Created { get; set; }
+    public DateTime? Updated { get; set; }
+    
     public Customer? Customer { get; set; }
     public ICollection<InvoiceLine>? InvoiceLines { get; set; }
 }

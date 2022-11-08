@@ -8,6 +8,9 @@ public class InvoiceLine
     public decimal UnitPrice { get; set; }
     public int Quantity { get; set; }
     
+    public DateTime Created { get; set; }
+    public DateTime? Updated { get; set; }
+    
     public Invoice? Invoice { get; set; }
     public Track? Track { get; set; }
 }

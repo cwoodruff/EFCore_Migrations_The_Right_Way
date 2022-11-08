@@ -5,6 +5,7 @@ public class Employee
     public int Id { get; set; }
     public string? LastName { get; set; }
     public string? FirstName { get; set; }
+    public string? DisplayName { get; set; }
     public string? Title { get; set; }
     public int ReportsTo { get; set; }
     public DateTime BirthDate { get; set; }
@@ -17,6 +18,9 @@ public class Employee
     public string? Phone { get; set; }
     public string? Fax { get; set; }
     public string? Email { get; set; }
+    
+    public DateTime Created { get; set; }
+    public DateTime? Updated { get; set; }
     
     public Employee? ReportsToNavigation { get; set; }
     public ICollection<Customer>? Customers { get; set; }

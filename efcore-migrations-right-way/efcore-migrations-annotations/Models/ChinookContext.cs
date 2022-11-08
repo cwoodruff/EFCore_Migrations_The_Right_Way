@@ -36,6 +36,11 @@ public class ChinookContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
+        modelBuilder.Entity<Customer>()
+            .Property(p => p.DisplayName)
+            .HasComputedColumnSql("[LastName] + ', ' + [FirstName]");
+        modelBuilder.Entity<Employee>()
+            .Property(p => p.DisplayName)
+            .HasComputedColumnSql("[LastName] + ', ' + [FirstName]");
     }
 }

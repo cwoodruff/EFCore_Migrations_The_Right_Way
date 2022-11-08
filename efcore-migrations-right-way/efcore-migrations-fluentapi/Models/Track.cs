@@ -12,6 +12,9 @@ public class Track
     public int Bytes { get; set; }
     public decimal UnitPrice { get; set; }
     
+    public DateTime Created { get; set; }
+    public DateTime? Updated { get; set; }
+    
     public virtual Album? Album { get; set; }
     public virtual Genre? Genre { get; set; }
     public virtual MediaType? MediaType { get; set; }

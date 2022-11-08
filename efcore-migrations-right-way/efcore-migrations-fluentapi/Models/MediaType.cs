@@ -5,5 +5,8 @@ public class MediaType
     public int Id { get; set; }
     public string? Name { get; set; }
     
+    public DateTime Created { get; set; }
+    public DateTime? Updated { get; set; }
+    
     public ICollection<Track>? Tracks { get; set; }
 }
