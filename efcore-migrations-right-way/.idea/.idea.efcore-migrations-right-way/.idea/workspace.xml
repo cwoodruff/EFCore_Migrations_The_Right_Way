@@ -14,8 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="446dce41-1053-4775-94b1-98b366b12f79" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +164,7 @@
       <workItem from="1668118653253" duration="2000" />
       <workItem from="1668121589434" duration="89000" />
       <workItem from="1668121862735" duration="17000" />
-      <workItem from="1668121968116" duration="9896000" />
+      <workItem from="1668121968116" duration="11356000" />
     </task>
     <servers />
   </component>

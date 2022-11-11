@@ -11,10 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1080f40-9859-4ce7-ba94-48d8fbcadd37" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-wrong-way/Models/ChinookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-wrong-way/Models/ChinookContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +111,7 @@
       <workItem from="1667695503517" duration="3836000" />
       <workItem from="1668154772479" duration="972000" />
       <workItem from="1668165408913" duration="5000" />
-      <workItem from="1668165483379" duration="55000" />
+      <workItem from="1668165483379" duration="1413000" />
     </task>
     <servers />
   </component>
