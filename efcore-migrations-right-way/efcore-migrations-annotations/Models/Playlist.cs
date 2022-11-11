@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Playlist", Schema = "dbo")]
 [Comment("The sets of tracks that have been curated for customers to buy.")]
 [Index(nameof(Name), Name = "I_Playlist_Name")]
 public class Playlist

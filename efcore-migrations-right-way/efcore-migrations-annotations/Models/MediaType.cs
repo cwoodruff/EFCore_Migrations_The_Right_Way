@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("MediaType", Schema = "dbo")]
 [Comment("The types of media that customers can purchase music on the store.")]
 public class MediaType
 {

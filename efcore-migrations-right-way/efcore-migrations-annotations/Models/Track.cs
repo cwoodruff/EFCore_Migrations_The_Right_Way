@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Track", Schema = "dbo")]
 [Comment("The tracks that are in the store to buy.")]
 [Index(nameof(AlbumId), Name = "IFK_Album_Track")]
 [Index(nameof(GenreId), Name = "IFK_Genre_Track")]
@@ -35,7 +35,7 @@ public class Track
     [Column(TypeName = "int")]
     [Required]
     public int Bytes { get; set; }
-    [Column(TypeName = "numeric(10,2")]
+    [Column(TypeName = "numeric(10,2)")]
     [Required]
     public decimal UnitPrice { get; set; }
     
@@ -57,6 +57,6 @@ public class Track
     public virtual MediaType? MediaType { get; set; }
     [InverseProperty("Track")]
     public virtual ICollection<InvoiceLine>? InvoiceLines { get; set; }
-    [InverseProperty("Track")]
+    [InverseProperty("Tracks")]
     public virtual ICollection<Playlist>? Playlists { get; set; }
 }

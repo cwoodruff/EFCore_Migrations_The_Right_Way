@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="RD-222.4459.9">
-    <data-source name="Chinook-wrong@WOODY-LAPTOP" uuid="221603c1-7cc2-48a8-864f-dbbda2244801">
+    <data-source name="Chinook-wrong@WOODY-LAPTOP" uuid="6369a07a-cf3a-4a7b-a990-4602bb25eb86">
       <database-info product="Microsoft SQL Server" version="15.00.2095" jdbc-version="4.2" driver-name="JetBrains JDBC Driver for SQL Server" driver-version="1.0" dbms="MSSQL" exact-version="15.0.2095" exact-driver-version="1.0">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>
@@ -17,23 +17,7 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="Chinook-annotations@WOODY-LAPTOP" uuid="266ce60a-0d7c-4e06-81e1-3c354e8dd142">
-      <database-info product="Microsoft SQL Server" version="15.00.2095" jdbc-version="4.2" driver-name="JetBrains JDBC Driver for SQL Server" driver-version="1.0" dbms="MSSQL" exact-version="15.0.2095" exact-driver-version="1.0">
-        <extra-name-characters>$#@</extra-name-characters>
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <secret-storage>master_key</secret-storage>
-      <auth-provider>ms-sso</auth-provider>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="Chinook-fluent@WOODY-LAPTOP" uuid="689755dc-45e9-4ed3-a3d9-6fe9861485c4">
+    <data-source name="Chinook-annotations@WOODY-LAPTOP" uuid="e4824303-e889-4ab9-ada5-f106d5cb2a6e">
       <database-info product="Microsoft SQL Server" version="15.00.2095" jdbc-version="4.2" driver-name="JetBrains JDBC Driver for SQL Server" driver-version="1.0" dbms="MSSQL" exact-version="15.0.2095" exact-driver-version="1.0">
         <extra-name-characters>$#@</extra-name-characters>
         <identifier-quote-string>&quot;</identifier-quote-string>

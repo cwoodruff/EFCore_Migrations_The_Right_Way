@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Customer", Schema = "dbo")]
 [Comment("The customers that have purchased tracks in the store.")]
 [Index(nameof(SupportRepId), Name = "IFK_Employee_Customer")]
 public class Customer
@@ -70,6 +70,6 @@ public class Customer
     [ForeignKey("SupportRepForeignKey")]
     public Employee? SupportRep { get; set; }
 
-    [InverseProperty("InvoiceLines")]
+    [InverseProperty("Customer")]
     public ICollection<Invoice>? Invoices { get; set; }
 }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Artist", Schema = "dbo")]
 [Comment("Artists in the store")]
 [Index(nameof(Name), Name = "I_Artist_Name")]
 public class Artist

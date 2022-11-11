@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Employee", Schema = "dbo")]
 [Index(nameof(ReportsTo), Name = "IFK_Employee_ReportsTo")]
 public class Employee
 {

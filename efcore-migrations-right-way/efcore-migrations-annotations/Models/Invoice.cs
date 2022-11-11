@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Invoice", Schema = "dbo")]
 [Comment("The customer's invoices.")]
 [Index(nameof(CustomerId), Name = "IFK_Customer_Invoice")]
 public class Invoice

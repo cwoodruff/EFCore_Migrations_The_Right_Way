@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("InvoiceLine", Schema = "dbo")]
 [Comment("The details for the invoices in the store.")]
 [Index(nameof(InvoiceId), Name = "IFK_Invoice_InvoiceLine")]
 [Index(nameof(TrackId), Name = "IFK_Track_InvoiceLine")]

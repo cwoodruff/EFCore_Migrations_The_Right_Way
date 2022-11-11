@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Chinook-wrong@WOODY-LAPTOP" uuid="221603c1-7cc2-48a8-864f-dbbda2244801">
+    <data-source source="LOCAL" name="Chinook-wrong@WOODY-LAPTOP" uuid="6369a07a-cf3a-4a7b-a990-4602bb25eb86">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
       <jdbc-url>Server=WOODY-LAPTOP;Database=Chinook-wrong</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Chinook-annotations@WOODY-LAPTOP" uuid="266ce60a-0d7c-4e06-81e1-3c354e8dd142">
+    <data-source source="LOCAL" name="Chinook-annotations@WOODY-LAPTOP" uuid="e4824303-e889-4ab9-ada5-f106d5cb2a6e">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
       <jdbc-url>Server=WOODY-LAPTOP;Database=Chinook-annotations</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="Chinook-fluent@WOODY-LAPTOP" uuid="689755dc-45e9-4ed3-a3d9-6fe9861485c4">
-      <driver-ref>sqlserver.jb</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
-      <jdbc-url>Server=WOODY-LAPTOP;Database=Chinook-fluent</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

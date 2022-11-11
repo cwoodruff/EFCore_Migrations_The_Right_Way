@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace efcore_migrations_annotations.Models;
 
-[Table("Album", Schema = "dbo")]
+[Table("Genre", Schema = "dbo")]
 [Comment("The types of musical genres that that tracks can be assigned.")]
 public class Genre
 {

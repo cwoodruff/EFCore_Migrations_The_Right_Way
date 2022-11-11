@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Chinook-wrong@WOODY-LAPTOP">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.43">
+    <root id="1">
+      <ServerVersion>15.0.2095</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="AdventureWorks2014"/>
+    <database id="3" parent="1" name="AdventureWorks2017"/>
+    <database id="4" parent="1" name="AdventureWorksDW2017"/>
+    <database id="5" parent="1" name="BaseballStats2019"/>
+    <database id="6" parent="1" name="Chinook"/>
+    <database id="7" parent="1" name="Chinook-annotations"/>
+    <database id="8" parent="1" name="Chinook-wrong">
+      <Current>1</Current>
+      <Fingerprint>13.44874/E48165DA-E64E-44C7-AF97-761A16DFCBEB@WOODY-LAPTOP</Fingerprint>
+      <Grants>-9223372036854775808|database||1|connect|G
+-9223372036854775808|database||0|view any column encryption key definition|G
+-9223372036854775808|database||0|view any column master key definition|G</Grants>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+    </database>
+    <database id="9" parent="1" name="NORTHWND"/>
+    <database id="10" parent="1" name="WideWorldImporters"/>
+    <database id="11" parent="1" name="master"/>
+    <database id="12" parent="1" name="model"/>
+    <database id="13" parent="1" name="msdb"/>
+    <database id="14" parent="1" name="tempdb"/>
+    <role id="15" parent="8" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="16" parent="8" name="dbo">
+      <AuthType>windows</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+      <Type>windows-user</Type>
+    </role>
+    <role id="17" parent="8" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="18" parent="8" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="19" parent="8" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <role id="20" parent="8" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="21" parent="8" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="22" parent="8" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="23" parent="8" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="24" parent="8" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="25" parent="8" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="26" parent="8" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="27" parent="8" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="28" parent="8" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <schema id="29" parent="8" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="30" parent="8" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="31" parent="8" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="32" parent="8" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="33" parent="8" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="34" parent="8" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="35" parent="8" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="36" parent="8" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="37" parent="8" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="38" parent="8" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="39" parent="8" name="dbo">
+      <Current>1</Current>
+      <IntrospectionTimestamp>2022-11-11.10:27:22.483</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="40" parent="8" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="41" parent="8" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="42" parent="39" name="Albums">
+      <CreatedTimestamp>2022-11-11.10:20:49.847</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.857</ModifiedTimestamp>
+      <ObjectId>1093578934</ObjectId>
+    </table>
+    <table id="43" parent="39" name="Artists">
+      <CreatedTimestamp>2022-11-11.10:20:49.837</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.847</ModifiedTimestamp>
+      <ObjectId>917578307</ObjectId>
+    </table>
+    <table id="44" parent="39" name="Customers">
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.860</ModifiedTimestamp>
+      <ObjectId>1141579105</ObjectId>
+    </table>
+    <table id="45" parent="39" name="Employees">
+      <CreatedTimestamp>2022-11-11.10:20:49.840</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.860</ModifiedTimestamp>
+      <ObjectId>949578421</ObjectId>
+    </table>
+    <table id="46" parent="39" name="Genres">
+      <CreatedTimestamp>2022-11-11.10:20:49.843</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>997578592</ObjectId>
+    </table>
+    <table id="47" parent="39" name="InvoiceLines">
+      <CreatedTimestamp>2022-11-11.10:20:49.857</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.863</ModifiedTimestamp>
+      <ObjectId>1381579960</ObjectId>
+    </table>
+    <table id="48" parent="39" name="Invoices">
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.863</ModifiedTimestamp>
+      <ObjectId>1269579561</ObjectId>
+    </table>
+    <table id="49" parent="39" name="MediaTypes">
+      <CreatedTimestamp>2022-11-11.10:20:49.843</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1029578706</ObjectId>
+    </table>
+    <table id="50" parent="39" name="PlaylistTrack">
+      <CreatedTimestamp>2022-11-11.10:20:49.853</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.863</ModifiedTimestamp>
+      <ObjectId>1317579732</ObjectId>
+    </table>
+    <table id="51" parent="39" name="Playlists">
+      <CreatedTimestamp>2022-11-11.10:20:49.847</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.853</ModifiedTimestamp>
+      <ObjectId>1061578820</ObjectId>
+    </table>
+    <table id="52" parent="39" name="Tracks">
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.870</ModifiedTimestamp>
+      <ObjectId>1189579276</ObjectId>
+    </table>
+    <table id="53" parent="39" name="__EFMigrationsHistory">
+      <CreatedTimestamp>2022-11-11.10:20:49.707</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.707</ModifiedTimestamp>
+      <ObjectId>885578193</ObjectId>
+    </table>
+    <column id="54" parent="42" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="55" parent="42" name="Title">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="56" parent="42" name="ArtistId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="57" parent="42" name="FK_Albums_Artists_ArtistId">
+      <ColNames>ArtistId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.847</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.847</ModifiedTimestamp>
+      <ObjectId>1125579048</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>917578307</RefTableId>
+      <RefTableName>Artists</RefTableName>
+    </foreign-key>
+    <index id="58" parent="42" name="PK_Albums">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="59" parent="42" name="IX_Albums_ArtistId">
+      <ColNames>ArtistId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="60" parent="42" name="PK_Albums">
+      <CreatedTimestamp>2022-11-11.10:20:49.847</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.847</ModifiedTimestamp>
+      <ObjectId>1109578991</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Albums</UnderlyingIndexName>
+    </key>
+    <column id="61" parent="43" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="62" parent="43" name="Name">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <index id="63" parent="43" name="PK_Artists">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="43" name="PK_Artists">
+      <CreatedTimestamp>2022-11-11.10:20:49.837</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.837</ModifiedTimestamp>
+      <ObjectId>933578364</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Artists</UnderlyingIndexName>
+    </key>
+    <column id="65" parent="44" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="66" parent="44" name="FirstName">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="67" parent="44" name="LastName">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>3</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="68" parent="44" name="Company">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>4</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="69" parent="44" name="Address">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>5</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="70" parent="44" name="City">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>6</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="71" parent="44" name="State">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>7</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="72" parent="44" name="Country">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>8</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="73" parent="44" name="PostalCode">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>9</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="74" parent="44" name="Phone">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>10</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="75" parent="44" name="Fax">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>11</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="76" parent="44" name="Email">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>12</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="77" parent="44" name="SupportRepId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <foreign-key id="78" parent="44" name="FK_Customers_Employees_SupportRepId">
+      <ColNames>SupportRepId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1173579219</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>949578421</RefTableId>
+      <RefTableName>Employees</RefTableName>
+    </foreign-key>
+    <index id="79" parent="44" name="PK_Customers">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="80" parent="44" name="IX_Customers_SupportRepId">
+      <ColNames>SupportRepId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="81" parent="44" name="PK_Customers">
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1157579162</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Customers</UnderlyingIndexName>
+    </key>
+    <column id="82" parent="45" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="83" parent="45" name="LastName">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="84" parent="45" name="FirstName">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>3</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="85" parent="45" name="Title">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>4</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="86" parent="45" name="ReportsTo">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="87" parent="45" name="BirthDate">
+      <DataType>datetime2|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="88" parent="45" name="HireDate">
+      <DataType>datetime2|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="89" parent="45" name="Address">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>8</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="90" parent="45" name="City">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>9</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="91" parent="45" name="State">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>10</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="92" parent="45" name="Country">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>11</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="93" parent="45" name="PostalCode">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>12</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="94" parent="45" name="Phone">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>13</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="95" parent="45" name="Fax">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>14</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="96" parent="45" name="Email">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>15</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="97" parent="45" name="ReportsToNavigationId">
+      <DataType>int|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <foreign-key id="98" parent="45" name="FK_Employees_Employees_ReportsToNavigationId">
+      <ColNames>ReportsToNavigationId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.840</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.840</ModifiedTimestamp>
+      <ObjectId>981578535</ObjectId>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>949578421</RefTableId>
+      <RefTableName>Employees</RefTableName>
+    </foreign-key>
+    <index id="99" parent="45" name="PK_Employees">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="45" name="IX_Employees_ReportsToNavigationId">
+      <ColNames>ReportsToNavigationId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="101" parent="45" name="PK_Employees">
+      <CreatedTimestamp>2022-11-11.10:20:49.840</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.840</ModifiedTimestamp>
+      <ObjectId>965578478</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Employees</UnderlyingIndexName>
+    </key>
+    <column id="102" parent="46" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="103" parent="46" name="Name">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <index id="104" parent="46" name="PK_Genres">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="105" parent="46" name="PK_Genres">
+      <CreatedTimestamp>2022-11-11.10:20:49.843</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.843</ModifiedTimestamp>
+      <ObjectId>1013578649</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Genres</UnderlyingIndexName>
+    </key>
+    <column id="106" parent="47" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="107" parent="47" name="InvoiceId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="108" parent="47" name="TrackId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="109" parent="47" name="UnitPrice">
+      <DataType>decimal(18,2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="110" parent="47" name="Quantity">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <foreign-key id="111" parent="47" name="FK_InvoiceLines_Invoices_InvoiceId">
+      <ColNames>InvoiceId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.857</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.857</ModifiedTimestamp>
+      <ObjectId>1413580074</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1269579561</RefTableId>
+      <RefTableName>Invoices</RefTableName>
+    </foreign-key>
+    <foreign-key id="112" parent="47" name="FK_InvoiceLines_Tracks_TrackId">
+      <ColNames>TrackId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.857</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.857</ModifiedTimestamp>
+      <ObjectId>1429580131</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1189579276</RefTableId>
+      <RefTableName>Tracks</RefTableName>
+    </foreign-key>
+    <index id="113" parent="47" name="PK_InvoiceLines">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="114" parent="47" name="IX_InvoiceLines_InvoiceId">
+      <ColNames>InvoiceId</ColNames>
+      <Position>2</Position>
+    </index>
+    <index id="115" parent="47" name="IX_InvoiceLines_TrackId">
+      <ColNames>TrackId</ColNames>
+      <Position>3</Position>
+    </index>
+    <key id="116" parent="47" name="PK_InvoiceLines">
+      <CreatedTimestamp>2022-11-11.10:20:49.857</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.857</ModifiedTimestamp>
+      <ObjectId>1397580017</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_InvoiceLines</UnderlyingIndexName>
+    </key>
+    <column id="117" parent="48" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="118" parent="48" name="CustomerId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="119" parent="48" name="InvoiceDate">
+      <DataType>datetime2|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="120" parent="48" name="BillingAddress">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>4</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="121" parent="48" name="BillingCity">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>5</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="122" parent="48" name="BillingState">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>6</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="123" parent="48" name="BillingCountry">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>7</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="124" parent="48" name="BillingPostalCode">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>8</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="125" parent="48" name="Total">
+      <DataType>decimal(18,2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="126" parent="48" name="FK_Invoices_Customers_CustomerId">
+      <ColNames>CustomerId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1301579675</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1141579105</RefTableId>
+      <RefTableName>Customers</RefTableName>
+    </foreign-key>
+    <index id="127" parent="48" name="PK_Invoices">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="128" parent="48" name="IX_Invoices_CustomerId">
+      <ColNames>CustomerId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="129" parent="48" name="PK_Invoices">
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1285579618</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Invoices</UnderlyingIndexName>
+    </key>
+    <column id="130" parent="49" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="131" parent="49" name="Name">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <index id="132" parent="49" name="PK_MediaTypes">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="133" parent="49" name="PK_MediaTypes">
+      <CreatedTimestamp>2022-11-11.10:20:49.843</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.843</ModifiedTimestamp>
+      <ObjectId>1045578763</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_MediaTypes</UnderlyingIndexName>
+    </key>
+    <column id="134" parent="50" name="PlaylistsId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="135" parent="50" name="TracksId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="136" parent="50" name="FK_PlaylistTrack_Playlists_PlaylistsId">
+      <ColNames>PlaylistsId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.853</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.853</ModifiedTimestamp>
+      <ObjectId>1349579846</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1061578820</RefTableId>
+      <RefTableName>Playlists</RefTableName>
+    </foreign-key>
+    <foreign-key id="137" parent="50" name="FK_PlaylistTrack_Tracks_TracksId">
+      <ColNames>TracksId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.853</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.853</ModifiedTimestamp>
+      <ObjectId>1365579903</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1189579276</RefTableId>
+      <RefTableName>Tracks</RefTableName>
+    </foreign-key>
+    <index id="138" parent="50" name="PK_PlaylistTrack">
+      <Clustering>1</Clustering>
+      <ColNames>PlaylistsId
+TracksId</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="139" parent="50" name="IX_PlaylistTrack_TracksId">
+      <ColNames>TracksId</ColNames>
+      <Position>2</Position>
+    </index>
+    <key id="140" parent="50" name="PK_PlaylistTrack">
+      <CreatedTimestamp>2022-11-11.10:20:49.853</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.853</ModifiedTimestamp>
+      <ObjectId>1333579789</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_PlaylistTrack</UnderlyingIndexName>
+    </key>
+    <column id="141" parent="51" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="142" parent="51" name="Name">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <index id="143" parent="51" name="PK_Playlists">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="144" parent="51" name="PK_Playlists">
+      <CreatedTimestamp>2022-11-11.10:20:49.847</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.847</ModifiedTimestamp>
+      <ObjectId>1077578877</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Playlists</UnderlyingIndexName>
+    </key>
+    <column id="145" parent="52" name="Id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="146" parent="52" name="Name">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="147" parent="52" name="AlbumId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="148" parent="52" name="MediaTypeId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="149" parent="52" name="GenreId">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="150" parent="52" name="Composer">
+      <DataType>nvarchar(max)|0s</DataType>
+      <Position>6</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="151" parent="52" name="Milliseconds">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="152" parent="52" name="Bytes">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="153" parent="52" name="UnitPrice">
+      <DataType>decimal(18,2)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <foreign-key id="154" parent="52" name="FK_Tracks_Albums_AlbumId">
+      <ColNames>AlbumId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1221579390</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1093578934</RefTableId>
+      <RefTableName>Albums</RefTableName>
+    </foreign-key>
+    <foreign-key id="155" parent="52" name="FK_Tracks_MediaTypes_MediaTypeId">
+      <ColNames>MediaTypeId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1253579504</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>1029578706</RefTableId>
+      <RefTableName>MediaTypes</RefTableName>
+    </foreign-key>
+    <foreign-key id="156" parent="52" name="FK_Tracks_Genres_GenreId">
+      <ColNames>GenreId</ColNames>
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1237579447</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>Genres</RefTableName>
+    </foreign-key>
+    <index id="157" parent="52" name="PK_Tracks">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <index id="158" parent="52" name="IX_Tracks_AlbumId">
+      <ColNames>AlbumId</ColNames>
+      <Position>2</Position>
+    </index>
+    <index id="159" parent="52" name="IX_Tracks_GenreId">
+      <ColNames>GenreId</ColNames>
+      <Position>3</Position>
+    </index>
+    <index id="160" parent="52" name="IX_Tracks_MediaTypeId">
+      <ColNames>MediaTypeId</ColNames>
+      <Position>4</Position>
+    </index>
+    <key id="161" parent="52" name="PK_Tracks">
+      <CreatedTimestamp>2022-11-11.10:20:49.850</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.850</ModifiedTimestamp>
+      <ObjectId>1205579333</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_Tracks</UnderlyingIndexName>
+    </key>
+    <column id="162" parent="53" name="MigrationId">
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <column id="163" parent="53" name="ProductVersion">
+      <DataType>nvarchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
+    </column>
+    <index id="164" parent="53" name="PK___EFMigrationsHistory">
+      <Clustering>1</Clustering>
+      <ColNames>MigrationId</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="165" parent="53" name="PK___EFMigrationsHistory">
+      <CreatedTimestamp>2022-11-11.10:20:49.710</CreatedTimestamp>
+      <ModifiedTimestamp>2022-11-11.10:20:49.710</ModifiedTimestamp>
+      <ObjectId>901578250</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
