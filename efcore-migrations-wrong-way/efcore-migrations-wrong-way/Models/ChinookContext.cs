@@ -27,11 +27,7 @@ public class ChinookContext : DbContext
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        base.OnConfiguring(optionsBuilder);
-        if (!optionsBuilder.IsConfigured)
-        {
-            optionsBuilder.UseSqlServer(@"Server=.;Database=chinook-wrong;Trusted_Connection=True;");
-        }
+
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

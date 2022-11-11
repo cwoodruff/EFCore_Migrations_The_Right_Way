@@ -13,32 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="446dce41-1053-4775-94b1-98b366b12f79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources/221603c1-7cc2-48a8-864f-dbbda2244801.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources/266ce60a-0d7c-4e06-81e1-3c354e8dd142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/riderMarkupCache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Migrations/20221111081746_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Migrations/20221111081746_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Migrations/ChinookContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/dataSources/f782ac19-2b6e-456d-9c20-6fc5ace3f655.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Artist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Genre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Invoice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/InvoiceLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/InvoiceLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/MediaType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/MediaType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Playlist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Playlist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-annotations/Models/Track.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-fluentapi/Models/ChinookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-fluentapi/Models/ChinookContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/efcore-migrations-fluentapi/efcore-migrations-fluentapi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-fluentapi/efcore-migrations-fluentapi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-wrong-way/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +166,7 @@
       <workItem from="1668118653253" duration="2000" />
       <workItem from="1668121589434" duration="89000" />
       <workItem from="1668121862735" duration="17000" />
-      <workItem from="1668121968116" duration="8876000" />
+      <workItem from="1668121968116" duration="9896000" />
     </task>
     <servers />
   </component>

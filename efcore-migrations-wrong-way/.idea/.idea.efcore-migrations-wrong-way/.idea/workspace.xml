@@ -10,33 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1080f40-9859-4ce7-ba94-48d8fbcadd37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources/221603c1-7cc2-48a8-864f-dbbda2244801.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources/266ce60a-0d7c-4e06-81e1-3c354e8dd142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/riderMarkupCache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Migrations/20221111081746_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Migrations/20221111081746_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Migrations/ChinookContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/dataSources/f782ac19-2b6e-456d-9c20-6fc5ace3f655.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/.idea/.idea.efcore-migrations-right-way/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Artist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Genre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Invoice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/InvoiceLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/InvoiceLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/MediaType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/MediaType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Playlist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Playlist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-annotations/Models/Track.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-fluentapi/Models/ChinookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-fluentapi/Models/ChinookContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-fluentapi/efcore-migrations-fluentapi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../efcore-migrations-right-way/efcore-migrations-fluentapi/efcore-migrations-fluentapi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/dataSources/02bdf5ab-d238-4bf2-a659-c3419fdd667d/storage_v2/_src_/database/master.YiqNvw/schema/dbo.sYMBAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.efcore-migrations-wrong-way/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/efcore-migrations-wrong-way/Models/ChinookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/efcore-migrations-wrong-way/Models/ChinookContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.efcore-migrations-wrong-way: IIS Express">
     <configuration name="efcore-migrations-wrong-way: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/efcore-migrations-wrong-way/efcore-migrations-wrong-way.csproj" />
@@ -135,6 +113,8 @@
       <updated>1667695493932</updated>
       <workItem from="1667695503517" duration="3836000" />
       <workItem from="1668154772479" duration="972000" />
+      <workItem from="1668165408913" duration="5000" />
+      <workItem from="1668165483379" duration="55000" />
     </task>
     <servers />
   </component>
